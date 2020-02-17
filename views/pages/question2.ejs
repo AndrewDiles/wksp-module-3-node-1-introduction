@@ -14,10 +14,14 @@
             <div class='box answer'>
                 <h3>Answer</h3>
                 <!-- render answer here -->
+                <!-- res.render(sentence); -->
                 <!-- Notice that the commenting inside the ejs brackets is JS. -->
                 
-                <p><%- // sentence %></p>
-                <p><%= // sentence %></p>
+                <p><%-  sentence %></p>
+                <p><%=  sentence %></p>
+
+                <a href='/question1'>Previous</a>
+                <a href='/question3'>Next</a>
 
                 <!-- Keep that in mind for later. Everything between those brackets IS JavaScript. -->
             </div>

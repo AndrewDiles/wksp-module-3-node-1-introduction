@@ -13,8 +13,17 @@
             <%- include('../partials/questions/3') %>
             <div class='box answer'>
                 <h3>Answer</h3>
+                <%console.log(homer)%>
+                <img src='<%-homer.imageUrl%>'/>
+                <p> name:<%-  homer.name %></p>
+                <p> dob:<%-  homer.dob %></p>
+                <p> profession:<%-  homer.profession %></p>
+                <p> favoriteFood:<%-  homer.favoriteFood %></p>
+                <p> favoriteBeverage:<%-  homer.favoriteBeverage %></p>
+                <!-- homer.forEarch((element)=> {res.render(homer.element);});   nope... lmao -->
                 <!-- render answer here -->
-                
+                <a href='/question2'>Previous</a>
+                <a href='/question4'>Next</a>
             </div>
         </div>
     </div>

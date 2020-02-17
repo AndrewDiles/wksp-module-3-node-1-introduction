@@ -13,8 +13,14 @@
             <%- include('../partials/questions/5') %>
             <div class='box answer'>
                 <h3>Answer</h3>
+                <h3>Top 5 girls names in the England and Wales</h3>
+            <ol><% popularGirlNames.forEach((element, id) => { %>
+                <li><%= id+1 %>. <%= element %></li>
+                <% }); %>
+            </ol>
                 <!-- render answer here -->
-
+                <a href='/question4'>Previous</a>
+                <a href='/question6'>Next</a>
             </div>
         </div>
     </div>
