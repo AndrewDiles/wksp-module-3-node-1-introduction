@@ -11,7 +11,7 @@
 Server-side rendering VS. Client-side rendering [🔗](https://www.codeconquest.com/website/client-side-vs-server-side/)
 
 _thoughts?_
-
+//Node is server side, ensures same experience
 ---
 
 ### Binaries
@@ -43,6 +43,7 @@ Many buildings can be built from the same plan.
 
 - NodeJs (used to interpret JS code)
 - `yarn` (used to import modules written by others)
+// npm is an alternative
 
 ---
 
@@ -102,6 +103,7 @@ A module, or library, is a set of files, usually written by someone else.
 
 - These reside inside of the `node_modules` folder.
 - You can import node modules the `yarn` command.
+// you will run  yarn install
 
 ```
 // example (this will add the 'moment' module)

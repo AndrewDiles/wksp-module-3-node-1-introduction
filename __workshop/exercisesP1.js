@@ -34,7 +34,7 @@ const q3 = (req, res) => {
         favoriteBeverage: 'Duff Beer'
     };
 
-    res.render('pages/question3');
+    res.render('pages/question3', {homer});
 }
 // -----------------------------------------------
 
@@ -44,7 +44,7 @@ const q3 = (req, res) => {
 const q4 = (req, res) => {
     const popularGirlNames = ['Olivia', 'Ruby', 'Emily', 'Grace', 'Jessica'];
 
-    res.render('pages/question4');
+    res.render('pages/question4', {popularGirlNames});
 }
 // -----------------------------------------------
 
@@ -54,7 +54,7 @@ const q4 = (req, res) => {
 const q5 = (req, res) => {
     const popularGirlNames = ['Olivia', 'Ruby', 'Emily', 'Grace', 'Jessica'];
 
-    res.render('pages/question5');
+    res.render('pages/question5', {popularGirlNames});
 }
 // -----------------------------------------------
 
